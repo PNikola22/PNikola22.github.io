@@ -1,0 +1,142 @@
+.Navigacioni_meni 
+{
+    display: flex;
+}
+
+.Navigacioni_meni li a 
+{
+    text-decoration: none;
+    background-color:red;
+    color:white;
+    padding:4px;
+    margin-left: 5px;
+    margin-right:5px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+
+.Navigacioni_meni li a:hover 
+{
+    background-color: purple;
+    color:white;
+}
+
+.Navigacioni_meni li 
+{
+  
+    list-style: none;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    border-radius: 14px;
+    border-color: black;
+}
+
+#Naslov 
+{
+    font-weight: bold;
+    font-style: italic;
+    color:purple;
+}
+#Pocetna_paragraf 
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Automobil p
+{
+font-weight: bold;
+font-size: 20px;
+}
+
+.Automobil a 
+{
+    text-decoration: none;
+    background-color:red;
+    color:white;
+    padding:4px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.Automobil a:hover 
+{
+    background-color: purple;
+    color:white;
+}
+
+#presarano 
+{
+    text-decoration: line-through;
+}
+
+#Kontakt_h1 
+{
+    font-weight: bold;
+    font-style: italic;
+    color:purple;
+}
+
+#Email
+{
+    color:brown;
+    font-weight: bold;
+}
+
+#Instagram 
+{
+    color:orange;
+    font-weight: bold;
+}
+
+label 
+{
+    font-weight: bold;
+}
+
+#Instagram_Profil 
+{
+font-weight: bold;
+}
+
+#Email_Adress 
+{
+    font-weight: bold;
+}
+
+input 
+{
+    display: block;
+    margin-top:6px;
+    margin-bottom:6px;
+}
+
+
+button {
+    font-weight: bold;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+
+button:hover {
+  transition: 1s ease-in-out;
+  background: red;
+  color:white;
+}
+
+
+@media screen and (max-width:600px) {
+    .Navigacioni_meni {
+        display: block;
+        padding-left: 0px;
+    }
+    .Navigacioni_meni li a {
+        display: block;
+    }
+}
